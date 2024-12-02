@@ -19,7 +19,7 @@ const Contact = ({ contact }) => {
         </div>
         <div className={css.phoneInfo}>
           <FaPhone className={css.phoneIcon} />
-          <span className={css.phoneNumber}>{contact.number}</span>
+          <span className={css.phoneNumber}>{contact.phone}</span>
         </div>
       </div>
       <button

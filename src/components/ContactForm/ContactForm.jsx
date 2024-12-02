@@ -33,7 +33,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       validationSchema={schema}
     >
-      <Form className={css.form}>
+      <Form className={css.Form}>
         <div className={css.field}>
           <label htmlFor="name">Name</label>
           <Field id="name" name="name" placeholder="Name" />
